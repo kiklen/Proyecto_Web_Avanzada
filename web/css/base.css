@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/05/2019, 12:05:36 PM
+    Author     : Admin
+*/
+
+
+    body{
+        background-color: black;
+    }
+    .banner{
+        height: 35vh;
+        width: 100%;
+        background-image: url('../img/banner.png');
+        background-size: contain;
+        background-repeat: no-repeat;   
+        position: relative;
+        background-color: #000;
+    }
+    .title{
+        color: white; 
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        font-size: 10vh;
+        text-shadow: 3px 2px #000;
+        font-family: 'Gloria Hallelujah', cursive;
+    }
+    .head{
+        position: relative;
+        height: 10vh;     
+        background-color: #2C2C2C;
+        margin-top: 10vh;
+        width: 74vw;
+        margin-left: 10%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 5vh;
+        color: white;
+        padding: 10px !important;
+    }
+    .container{
+        position: relative;
+        height: 40vh;     
+        background-color: #2C2C2C;                
+        width: 74vw !important;
+        margin-left: 10%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 5vh;
+        overflow-y: auto;
+    }
+    .elemento{               
+        background-color: #A2A2A245;
+        border: transparent;
+        color: white;
+        border-radius: 5px;
+        width: 11vw;
+        height: 3.5vh;
+    }
+    .area{
+        background-color: #A2A2A245;
+        border: transparent;
+        color: white;
+        border-radius: 5px;
+        width: 39vh;
+        height: 10vh;
+        margin-left: 2vh;
+    }
+    .text{
+        color: white;
+        font-size: 3vh;
+    }
+    select{
+        width: 11vw;
+        height: 3.5vh;
+    }
+    img{
+        height: 10vh;
+        width: 15vh;
+    }
+
+    .subir{
+        padding: 5px 10px;
+        background: #000;
+        color:#fff;
+        border-radius: 5px;
+    }
+
+    .subir:hover{
+        color:#fff;
+        background: #A1A1A1;
+    }
+
+    .agregar{
+        border-radius: 30px;
+        width: 3vh;
+        height: 3vh;
+        border: transparent;
+        background-color: transparent;
+    }
+    .add{
+        height: 5vh;
+        width: 12vh;
+        background-color: transparent;
+        border-color: #8AB4F8;
+        border: solid;
+        border-radius: 4px;
+        color: #8AB4F8; 
+        float: center;
+    }
+
+    .add:hover{
+        height: 5vh;
+        width: 12vh;
+        background-color: #8AB4F8;
+        border-color: transparent;
+        border-radius: 4px;
+        color: #000;                
+    }
